@@ -1,0 +1,434 @@
+body{
+	font-family: 'Montserrat';
+    color : black;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+h2{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.container-fluid{
+	padding: 0 5% 7%;
+	
+}
+
+/* Navigatin bar*/
+
+.navbar{
+    
+	padding-bottom: 4.5rem;
+    color : black;
+}
+
+.navbar-brand{
+width: 137px;
+height: 33px;
+left: 45px;
+top: 20px;
+
+font-family: 'Sacramento';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 47px;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+.navbar{
+    padding:0;
+    margin-top: 20px;
+}
+.nav{
+   margin-top:20px;
+   padding: 0px;
+
+}
+.nav-item{
+	padding: 0 10px;
+    margin : 0 20px;
+    text-align: left;
+    color : black;
+   
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+
+
+}
+
+.nav-links{
+	color : black;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.dropdown{
+
+margin-top: 12px;
+margin-left: 25%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.appointment-btn{
+    margin:5px 0 0 25px;
+    
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+width: 223px;
+height: 45px;
+    box-sizing: border-box;
+    border: 2px solid #954F25;
+    border-radius: 10px;
+    color : #954F25;
+
+}
+
+
+/* Title */
+
+#title{
+    color: black;
+    background-color: #E5E5E5;
+    
+    
+
+}
+.main-screen{
+    margin-top: 40px;
+}
+.Big-heading{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 61px;
+width: 468px;
+height: 183px;
+margin-left: 50px;
+margin-top: 118px;
+
+color: #000000;
+}
+.heading-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+margin-left: 50px;
+margin-top:20px;
+
+color: #000000;
+
+opacity: 0.5;
+}
+
+.ready-btn{
+    background: #954F25;
+border-radius: 5px;
+padding: 2% 4%;
+margin-left: 50px;
+margin-top:20px;
+
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+
+
+.title-image{
+    height:490px;
+    width : 490px;
+    margin: 0 auto;
+    border-radius: 100%;
+    object-fit:contain;
+
+}
+.tick{
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+/*option*/
+
+#options{
+    margin:-70px auto -10px;
+    height: 400px;
+    width: 900px;
+    padding: 5% 5%;
+	background-color: #fff;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px; 
+    align-items: center;
+    position:relative;
+
+    
+    
+}
+
+.option-box{
+    text-align: center;
+	padding:0 4.5%;
+}
+.option-col{
+    border-spacing: 20px;
+}
+
+.option-img{
+    height:150px;
+    width: 150px;
+    border-radius: 100%;
+    margin:0 auto 20%;
+}
+
+.usage-option{
+    font-family: 'Open Sans';
+
+line-height: 34px;
+color: #000000;
+
+	font-weight: 900;
+	font-size: 1.5rem;
+
+}
+
+/*features*/
+#features{
+	padding: 7% 7%;
+	background-color: #fff;
+    margin: 0 auto;
+	
+}
+
+.feature-box{
+	text-align: center;
+	padding: 3%;
+    margin: -50px 0;
+}
+.features-heading{
+    margin : 0 auto 10%;
+}
+
+.usage{
+	font-family: 'Open Sans';
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+
+.para{
+	color:#8f8f8f;
+    font-family: 'Open Sans';
+    line-height: 30px;
+    text-align: center;
+    padding:0 17%;
+}
+
+.fa-feature{
+	background-color: #954F25;
+    border: solid #954F25 1rem;
+    border-radius: 100px;
+	margin-bottom: 1rem;
+}
+/*------product------*/
+
+#product{
+    padding: 5% 15%;
+	background-color: #E5E5E5;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.product-heading{
+    color : #954F25;
+    font-family: 'Open Sans';
+}
+
+.product-para{
+    font-family: 'Open Sans';
+    margin-bottom: 15%;
+}
+
+.product-box{
+    text-align: center;
+	padding:4.5%;
+    background-color: #954F25;
+    margin:-140px auto 100px;
+    
+    height: 280px;
+    width: 800px;
+    
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px; 
+    align-items: center;
+    position:relative;
+}
+.usage-product{
+    color:#FFFFFF;
+    font-family: 'Open Sans';
+    text-align: left;
+}
+.usage-product-para{
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    width: 400px;
+    font-size: 20px;
+text-align: left;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+.product-img{
+    margin-top:-60px ;
+    margin-right: -200px;
+    height:280px;
+    width:250px;
+}
+/*----photos-----*/
+#photos{
+    padding: 5% 1%;
+	background-color: #E5E5E5;
+    margin: 0 auto;
+    text-align: center;
+}
+.photo-img{
+    padding: 0 2%;
+}
+.photo-heading{
+    margin: 3% 28%;
+    font-family: 'Open Sans';
+    text-align: center;
+    line-height: 65px;
+}
+.photo-para{
+    font-family: 'Open Sans';
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    margin: 0 38%;
+}
+
+/*--------Card-------*/
+
+
+#card{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 0 1%;
+}
+.card-icon{
+    margin-top:15%;
+}
+.card-text{
+    padding:0 7%;
+    font-family: 'Open Sans';
+    margin:30% auto;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.card-main{
+    margin:3% 10%;
+    border:solid #954F25;
+    border-radius: 15px;
+    background-color: #954F25;
+    height:380px;
+    width: 250px;
+    display:inline-block;
+}
+.card-side{
+    margin:0 auto 2%;
+    border:solid #954F25;
+    border-radius: 15px;
+    background-color: #954F25;
+    height:280px;
+    width: 200px;
+    display:inline-block;
+    
+}
+.card-text-side{
+    padding:0 5%;
+    font-family: 'Open Sans';
+    margin:35% auto 25%;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.dot{
+    size:2px;
+}
+.card-para{
+    font-family: 'Open Sans';
+    font-size: 27px;
+    text-align: left;
+    padding:2% 0 0 7%;
+    
+}
+.card-btn{
+    margin:10%;;
+    font-family: 'Open Sans';
+    padding: 2% 15%;
+    font-size: 20px;
+    color: white;
+    background-color: #954F25;
+    border-radius: 10px;
+    
+}
+
+
+
+/*====hrizontal line---------*/
+
+/*---footer----*/
+hr{
+    border: 1px solid #954F25;
+    margin:20px auto;
+    width:70%
+    
+   }
+.footer-heading{
+    font-family: 'Sacramento';
+    font-size: 3.5rem;
+}
+footer{
+    background-color: #E5E5E5;
+    text-align: center;
+    margin:0 auto;
+}
+.footer-end{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #000000;
+    line-height: 30px;
+    text-align: center;
+    margin:-30px auto 10px;
+}
+.fas-foot{
+    margin:0 10px;
+}
+
